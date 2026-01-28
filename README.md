@@ -1,5 +1,8 @@
 # ETL Pipeline - Medical Data Processing
 
+Published Power BI Link:
+https://app.powerbi.com/groups/me/reports/49e81a4e-d445-4f48-b539-e16644e5f70c/8114ca2b8762d315d2b3?experience=power-bi
+
 Production-grade ETL pipeline for processing medical/vital signs data from S3 to AWS RDS PostgreSQL.
 
 ## Pip install commands (run these first)
@@ -59,4 +62,5 @@ python etl_process.py
 
 - Python 3.8+
 - AWS account with S3, Secrets Manager, and RDS access
+
 - PostgreSQL database on AWS RDS
